@@ -52,6 +52,39 @@ button {
     100% { transform: translate(-50%, -50%) rotate(360deg) }
 }
 
-.wrapper {
+.container {
+    background-color: #2b304d;
+    display: flex;
+    padding: 1em;
+    margin: 1.5em;
+    justify-content: space-between;
+    flex-direction: column;
+    border-radius: .5em;
+    cursor: pointer;
+}
 
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.container img {
+    width: 100%;
+    min-height: 30em;
+    max-height: 30em;
+}
+
+@media screen and (max-width: 768px) {
+    .wrapper {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .container {
+        margin: .7em;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .wrapper {
+        grid-template-columns: 1fr;
+    }
 }
