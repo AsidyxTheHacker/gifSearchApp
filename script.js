@@ -49,5 +49,11 @@ let generateGif = () => {
  });
 };
 
+window.addEventListener('keydown', function(e) {
+    if(e.key === 'Enter'){
+        submitBtn.click();
+    }
+})
+
 submitBtn.addEventListener('click', generateGif);
 window.addEventListener('load', generateGif)
