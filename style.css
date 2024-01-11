@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: rgb(34, 33, 33);
+}
+
+button {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: .5em;
+    font-weight: 500;
+    color: #151d2f;
+    background-color: #13fc97;
+}
+
+.search-container {
+    display: grid;
+    grid-template-columns: 9fr 3fr;
+    gap: 1em;
+    max-width: 50em;
+    margin: 1em auto;
+    width: 100%;
+    padding: .5em;
+}
+
+#search-box {
+    padding: 1em;
+    font-weight: 400;
+    border: .5em;
+}
+
+.loader {
+    
+}
+
+.wrapper {
+
+}
