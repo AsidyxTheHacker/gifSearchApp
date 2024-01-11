@@ -36,7 +36,20 @@ button {
 }
 
 .loader {
-    
+    width: 15em;
+    height: 15em;
+    border: 3em solid #2b304d;
+    border-radius: 50%;
+    border-top-color: #13fc97;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    animation: spin 2s infinite;
+}
+
+@keyframes spin {
+    100% { transform: translate(-50%, -50%) rotate(360deg) }
 }
 
 .wrapper {
