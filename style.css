@@ -61,6 +61,7 @@ button {
     flex-direction: column;
     border-radius: .5em;
     cursor: pointer;
+    box-shadow: #1d2035 4px 4px 3px;
 }
 
 .wrapper {
