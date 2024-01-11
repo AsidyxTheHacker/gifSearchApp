@@ -14,9 +14,15 @@ button {
     outline: none;
     cursor: pointer;
     border-radius: .5em;
-    font-weight: 500;
+    font-weight: bold;
     color: #151d2f;
     background-color: #13fc97;
+    font-size: 20px;
+    transition: .2s;
+}
+
+button:hover {
+    background-color: #3ca779;
 }
 
 .search-container {
@@ -33,6 +39,10 @@ button {
     padding: 1em;
     font-weight: 400;
     border: .5em;
+}
+
+#search-box:focus {
+    outline: none;
 }
 
 .loader {
@@ -62,6 +72,11 @@ button {
     border-radius: .5em;
     cursor: pointer;
     box-shadow: #1d2035 4px 4px 3px;
+    transition: .2s;
+}
+
+.container:hover {
+    background-color: #6a74ac;
 }
 
 .wrapper {
